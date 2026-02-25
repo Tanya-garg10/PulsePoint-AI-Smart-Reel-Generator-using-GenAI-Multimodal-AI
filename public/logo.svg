@@ -1,0 +1,58 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00D9FF;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#AA00FF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF00AA;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="iconGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E0E0E0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Rounded square background -->
+  <rect width="512" height="512" rx="120" fill="url(#bgGradient)"/>
+  
+  <!-- Video/Reel icon -->
+  <!-- Outer frame (phone/reel shape) -->
+  <rect x="156" y="96" width="200" height="320" rx="24" fill="url(#iconGradient)" opacity="0.95"/>
+  
+  <!-- Inner screen -->
+  <rect x="176" y="116" width="160" height="280" rx="12" fill="#1a1a2e"/>
+  
+  <!-- Play button -->
+  <circle cx="256" cy="256" r="40" fill="url(#iconGradient)" opacity="0.9"/>
+  <path d="M 246 236 L 246 276 L 276 256 Z" fill="#1a1a2e"/>
+  
+  <!-- Waveform/pulse lines (representing AI analysis) -->
+  <g opacity="0.8">
+    <!-- Left pulse -->
+    <path d="M 120 256 L 140 256 L 145 240 L 150 270 L 155 256 L 176 256" 
+          stroke="url(#iconGradient)" stroke-width="4" fill="none" stroke-linecap="round"/>
+    
+    <!-- Right pulse -->
+    <path d="M 336 256 L 356 256 L 361 240 L 366 270 L 371 256 L 392 256" 
+          stroke="url(#iconGradient)" stroke-width="4" fill="none" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Sparkle/AI indicators -->
+  <g fill="url(#iconGradient)" opacity="0.7">
+    <!-- Top left sparkle -->
+    <circle cx="140" cy="140" r="6"/>
+    <circle cx="140" cy="140" r="3" fill="#FFFFFF"/>
+    
+    <!-- Top right sparkle -->
+    <circle cx="372" cy="140" r="6"/>
+    <circle cx="372" cy="140" r="3" fill="#FFFFFF"/>
+    
+    <!-- Bottom left sparkle -->
+    <circle cx="140" cy="372" r="6"/>
+    <circle cx="140" cy="372" r="3" fill="#FFFFFF"/>
+    
+    <!-- Bottom right sparkle -->
+    <circle cx="372" cy="372" r="6"/>
+    <circle cx="372" cy="372" r="3" fill="#FFFFFF"/>
+  </g>
+</svg>
